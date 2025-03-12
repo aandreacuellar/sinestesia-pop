@@ -8,6 +8,7 @@
     box-sizing: border-box;
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
 }
+
 body {
     color: #000000;
     font-size: 14px;
@@ -16,7 +17,7 @@ body {
 #contenedor {
     width: 80%;
     height: auto;
-    background-color: #E7E7E7;
+    background-color: #FDEBCA;
     margin-top: 0px;
     margin-right: auto;
     margin-left: auto;
@@ -29,13 +30,15 @@ body {
 header {
     width: 100%;
     height: 80px;
-    background-color: #E3F7FA;
+    background-color: #FFFFFF;
     display: flex;
+    -webkit-box-shadow: inset 0px 0px 5px #000000;
+    box-shadow: inset 0px 0px 5px #000000;
 }
 #banner {
     width: 30%;
     height: 80px;
-    background-color: #4D4D4D;
+    background-color: #fcbb17;
     float: left;
     align-content: space-around;
     font-weight: bold;
@@ -46,13 +49,13 @@ header {
     color: rgba(239,239,239,1.00);
 }
 #banner a:hover {
-    color: #007E80;
+    color: #000000;
     font-size: x-large;
 }
 #contenedor header nav {
     width: 70%;
     height: 80px;
-    background-color: #808080;
+    background-color: #FFE2A6;
     padding: 20px;
     float: left;
 }
@@ -72,10 +75,11 @@ nav ul li {
 ul li a {
     font-size: 16px;
     text-decoration: none;
-    color: rgba(239,239,239,1.00);
+    color: #000000;
+    font-weight: bold;
 }
 ul li a:hover  {
-    color: #007E80;
+    color: #FCBB17;
 }
 
 
@@ -127,7 +131,7 @@ ul li a:hover  {
     color: #000000;
 }
 #libros a:hover {
-    color: #007E80;
+    color: #FCBB17;
 }
 #peliculas {
     width: 50%;
@@ -154,14 +158,17 @@ ul li a:hover  {
     text-decoration: none;
 }
 #peliculas a:hover {
-    color: #007E80;
+    color: #FCBB17;
+}
+.des-pri-com {
+    padding: 15px;
 }
 .text-pelis h4 a {
     color: #000000;
     text-decoration: none;
 }
 .text-pelis h4 a:hover {
-    color: #007E80;
+    color: #FCBB17;
 }
 
 
@@ -177,6 +184,7 @@ ul li a:hover  {
     background-size: cover;
     background-clip: border-box;
     box-sizing: border-box;
+    padding: 15px;
     height: 300px;
 }
 #text-com a {
@@ -184,7 +192,7 @@ ul li a:hover  {
     color: #000000;
 }
 #text-com a:hover {
-    color: #007E80;
+    color: #FCBB17;
 }
 
 
@@ -235,7 +243,7 @@ ul li a:hover  {
 }
 
 .libros h4 a:hover {
-    color: #007E80;
+    color: #FCBB17;
 }
 
 #libros a h3 {
@@ -311,7 +319,7 @@ ul li a:hover  {
 
 h1 {
     text-align: center;
-    color: #007E80;
+    color: #FCBB17;
 }
 .question {
     margin-bottom: 20px;
@@ -340,13 +348,13 @@ h1 {
 	align-content: space-around;
 }
 .answers label:hover {
-    background-color: #f0f0f0;
+    background-color: #FCBB17;
 }
 button {
     display: block;
     margin: 20px auto;
     padding: 10px 20px;
-    background-color: #009698;
+    background-color: #FCBB17;
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -354,7 +362,7 @@ button {
     font-size: 1em;
 }
 button:hover {
-    background-color: #007E80;
+    background-color: #FCBB17;
 }
 .result {
     text-align: center;
@@ -391,6 +399,7 @@ footer {
     text-align: left;
     -webkit-box-shadow: 0px 0px;
     box-shadow: 0px 0px;
+	background-color: #f3ae00;
 }
 #footer-sec {
     flex: 1;
@@ -411,7 +420,7 @@ footer {
     font-size: 14px;
 }
 #footer-sec ul li a:hover {
-    color: #007E80;
+    color: #FFFFFF;
 }
 #footer-sec2 {
     flex: 1;
